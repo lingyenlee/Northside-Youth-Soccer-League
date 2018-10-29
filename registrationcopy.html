@@ -1,0 +1,192 @@
+<!--this is registration page-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <link rel="stylesheet" href="styles/nysl_3copy.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Register</title>
+</head>
+
+<body>
+    <!--HEADER contains top image, logo and nav-->
+    <header>
+        <div class="nav">
+            <ul>
+                <li><a href="homepage.html" class="button">Home</a></li>
+                <li><a href="About3copy.html" class="button">About</a></li>
+                <li><a href="rulescopy.html" class="button">Rules &amp; Polices</a></li>
+                <li><a href="game_infocopy.html" class="button">Game Information</a></li>
+                <li><a class="active">Register</a></li>
+                <li><a href="contact3copy.html" class="button">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header-image"></div>
+        <div class="logo">
+            <img src="Images/Website_Sketch.pdf.png" alt="NYSL logo">
+        </div>
+        <div class="clubname">
+            <h5>Northside Youth Soccer League</h5>
+        </div>
+    </header>
+    
+      <!-- here is the content: registration form -->
+    
+<section class="section-registration">
+
+    <div class="registration-title">
+        <h2>Online Registration Form</h2>
+    </div>
+   
+<div class="register-form">
+                <form action="show_data.html">
+                    <div class="form-group">
+                        <label for="firstname">First Name&#42;</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter your first name here" required>
+                        <label for="lastname">Last Name&#42;</label><input type="text" name="lastname" id="lastname" placeholder="Enter your last name here" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="add">Address&#42;</label>
+                        <input type="text" id="add" name="address" placeholder="Enter your address here" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City&#42;</label>
+                        <input type="text" id="city" name="city" placeholder="Enter your city here" required> <label for="zipcode">Zip Code&#42;</label>
+                        <input type="number" id="zipcode" name="zipcode" placeholder="Enter your Zip Code here" required>
+                    </div>
+                    <div class="form-group-2">
+                        <label for="dob">Date of birth&#42;</label><input type="date" id="dob" name="birthday" required>
+                        <label for="gender" style="text-align: right">Gender&#42;</label>
+                        <div class="group-choose">
+                            <label><input type="radio" id="gender" name="gender" value="male">Male</label>
+                            <label><input type="radio" name="gender" value="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Grade&#42;</label>
+                        <div class="group-choose">
+                            <label><input type="radio" name="grade" value="pre">Pre-School</label>
+                            <label><input type="radio" name="grade" value="1st">1<sup>st</sup></label>
+                            <label><input type="radio" name="grade" value="2nd">2<sup>nd</sup></label>
+                            <label><input type="radio" name="grade" value="3rd">3<sup>rd</sup></label>
+                            <label><input type="radio" name="grade" value="4th">4<sup>th</sup></label>
+                            <label><input type="radio" name="grade" value="5th">5<sup>th</sup></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="parent">Parent&#47;Guardian&#42;</label>
+                        <input type="text" id="parent" name="parent_name" placeholder="Enter your Parent's/Guardian's name here" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Contact Phone&#42;</label>
+                        <input type="number" id="phone" name="phone" placeholder="Enter your phone here" required>
+                        <label for="email">Contact Email&#42;</label>
+                        <input type="text" id="email" name="email" placeholder="Enter your email here" required>
+                    </div>
+                    <div class="form-group-3">
+                        <label>Which elementary schools do you live near&#63;</label>
+                        <div class="container">
+                            <div class="schoolgroup">
+                                <label class="school">First Closest School</label>
+                                <select name="1st_sch">
+                                    <option value="AJK">AJ Katzenmaier</option>
+                                    <option value="Greenbay">Greenbay</option>
+                                    <option value="HAY">Howard A Yeager</option>
+                                    <option value="MPH">Marjorie P Hart</option>
+                                    <option value="North">North Elementary</option>
+                                    <option value="South">South Elementary</option>
+                                </select>
+
+                            </div>
+                            <div class="schoolgroup">
+                                <label class="school">Second Closest School</label>
+
+                                <select name="2nd_sch">
+                                    <option value="AJK">AJ Katzenmaier</option>
+                                    <option value="Greenbay">Greenbay</option>
+                                    <option value="HAY">Howard A Yeager</option>
+                                    <option value="MPH">Marjorie P Hart</option>
+                                    <option value="North">North Elementary</option>
+                                    <option value="South">South Elementary</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group-4">
+                        <label>What position&#40;s&#41; do you <em>normally</em> play&#63; &#40;Check all that apply&#41;</label>
+                        <div class="group-choose">
+                            <label><input type="checkbox" name="normal_pos" value="forward">Forward</label>
+                            <label><input type="checkbox" name="normal_pos" value="defense">Defense</label>
+                            <label><input type="checkbox" name="normal_pos" value="midfield">Midfield</label>
+                            <label><input type="checkbox" name="normal_pos" value="goalkeeper">Goalkeeper</label>
+                        </div>
+                    </div>
+                    <div class="form-group-4">
+                        <label>What position&#40;s&#41; do you <em>want</em> play&#63; &#40;Check all that apply&#41;</label>
+                        <div class="group-choose">
+                            <label><input type="checkbox" name="want_pos" value="forward">Forward</label>
+                            <label><input type="checkbox" name="want_pos" value="defense">Defense</label>
+                            <label><input type="checkbox" name="want_pos" value="midfield">Midfield</label>
+                            <label><input type="checkbox" name="want_pos" value="goalkeeper">Goalkeeper</label>
+                        </div>
+                    </div>
+                    <div class="form-group-3">
+                        <label><span>Do you already have a uniform&#63;</span></label>
+                        <div class="group-choose">
+                            <label><input type="radio" name="uniform" value="Yes">Yes</label>
+                            <label><input type="radio" name="uniform" value="No">No</label>
+                        </div>
+                    </div>
+                    <div class="form-group-5">
+                        <div class="form-group-5-inner">
+                            <label>Jersey size&#58;</label>
+                            <div class="group-choose" id="jersey_size">
+                                <label><input type="radio" name="jersey" value="y-s">Youth Small</label>
+                                <label><input type="radio" name="jersey" value="y-m">Youth Medium</label>
+                                <label><input type="radio" name="jersey" value="y-l">Youth Large</label>
+                                <label><input type="radio" name="jersey" value="s">Small</label>
+                                <label><input type="radio" name="jersey" value="m">Medium</label>
+                                <label><input type="radio" name="jersey" value="l">Large</label>
+                                <label><input type="radio" name="jersey" value="ex-l">Extra&#45;Large</label>
+                            </div>
+                        </div>
+                        <div class="form-group-5-inner">
+                            <label>Shorts size&#58;</label>
+                            <div class="group-choose" id="short_size">
+                                <label><input type="radio" name="shorts" value="y-s">Youth Small</label>
+                                <label><input type="radio" name="shorts" value="y-m">Youth Medium</label>
+                                <label><input type="radio" name="shorts" value="y-l">Youth Large</label>
+                                <label><input type="radio" name="shorts" value="s">Small</label>
+                                <label><input type="radio" name="shorts" value="m">Medium</label>
+                                <label><input type="radio" name="shorts" value="l">Large</label>
+                                <label><input type="radio" name="shorts" value="ex-l">Extra&#45;Large</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="declare">
+                        <p><span>Permission to Play</span></p><br>
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League &#40;NYSL&#41;. In recognizing the possibility of physical injury associated with soccer and in consideration for the &quot;League&quot; accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant&#39;s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p><br>
+                        <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                    </div>
+                    <div class="form-group-2">
+                        <label for="sign">Parent&#47;Guardian Signature</label>
+                        <input type="text" id="sign" name="sign-name" placeholder="Enter your name here" required>
+                        <label for="signdate">Date&#58;</label>
+                        <input type="date" id="signdate" name="date" required>
+                    </div>
+                    <br>
+                    <div class="submit">
+                        <input type="submit" class="submit-button" value="Submit">
+                    </div>
+                </form>
+            </div>
+    </section>
+    </body>
+    
+
+</html>

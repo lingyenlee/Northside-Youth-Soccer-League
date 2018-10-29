@@ -1,0 +1,54 @@
+/*
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*/
+
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.AJK {
+    
+    margin-bottom: 66px;
+}
+
+.greenbay {
+    
+    margin-bottom: 22px;
+}
+
+.location-map {
+    
+    height: 264px;
+}
+
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
+}
